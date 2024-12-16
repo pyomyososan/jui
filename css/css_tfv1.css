@@ -1,0 +1,293 @@
+body {
+	background-color: #cccccc;
+	font-family:"Meiryo";
+}
+
+.contn4-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	-ms-grid-columns: 1fr 1fr ;
+	-ms-grid-rows : auto auto ;
+    gap: 2px;
+
+}
+
+#sp-fixed-menu{
+   background:#ddd;
+   position: fixed;
+   width: 100%;
+   bottom: 0px;
+   opacity: 1.0;
+   z-index: 99;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+
+.ico {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+hr {
+    background-color: #0000aa;
+    border: none ;
+    height: 2px;
+}
+
+#box-icons li {
+    background: -webkit-linear-gradient(top, #e4e4e4 0%, #cfcfcf 100%);
+    background: linear-gradient(to bottom, #e4e4e4 0%, #cfcfcf 100%);
+    border: 0px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0) inset;
+	display: inline-block;
+	margin: 1;
+	overflow: hidden;
+    padding: 1;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: top;
+	width: 184px;
+}
+#box-mh li {
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+    border: 1px solid #222277;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0) inset;
+	display: inline-block;
+	line-height: 24px;
+	margin: 2;
+	overflow: hidden;
+    padding: 3;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: top;
+	width: 220px;
+    border-left: 0px solid #222277;
+    border-top: 0px solid #222277;
+}
+
+#box-m li {
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+    border: 1px solid #222277;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0) inset;
+	display: inline-block;
+	height: 220px;
+	line-height: 24px;
+	margin: 2;
+	overflow: hidden;
+    padding: 3;
+	text-align: left;
+	text-decoration: none;
+	vertical-align: top;
+	width: 220px;
+    border-left: 0px solid #222277;
+    border-top: 0px solid #222277;
+}
+
+#fullwide p{
+	width: 640px;
+}
+
+#btn-no a{
+	background: -webkit-linear-gradient(top, #5555dd 0%, #222277 100%);
+	background: linear-gradient(to bottom, #5555dd 0%, #222277 100%);
+	color: #eeeeee;
+	display: inline-block;
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	margin: 2px;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	width: 36px;
+	border-radius:6px;
+	}
+#btn-no a:hover{
+	color: yellow;
+	background: -webkit-linear-gradient(top, #7777ff 0%, #4444cc 100%);
+	background: linear-gradient(to bottom, #7777ff 0%, #4444cc 100%);
+}
+
+#btn-main a{
+	background: -webkit-linear-gradient(top, #5555dd 0%, #222277 100%);
+	background: linear-gradient(to bottom, #5555dd 0%, #222277 100%);
+	color: #eeeeee;
+	display: inline-block;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	width: 180px;
+	border-radius:6px;
+	}
+#btn-main a:hover{
+	color: yellow;
+	background: -webkit-linear-gradient(top, #7777ff 0%, #4444cc 100%);
+	background: linear-gradient(to bottom, #7777ff 0%, #4444cc 100%);
+}
+
+
+#btn-menu a{
+	background: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #dddddd 100%);
+	color: #009;
+	font-size: 80%;
+	display: inline-block;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #999;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	width: 85px;
+}
+#btn-menu a:hover{
+	color: #55e;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+}
+
+
+#btn-box a{
+	background: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #dddddd 100%);
+	color: #000;
+	display: inline-block;
+	height: 100px;
+	line-height: 20px;
+	border: 1px solid #999;
+	overflow: hidden;
+	text-decoration: none;
+	vertical-align: top;
+	width: 30%;
+	border-radius:10px;
+	padding: 5px;
+}
+#btn-box a:hover{
+	color: #00a;
+	font-weight: bold;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+}
+
+#btn-box2 a{
+	background: -webkit-linear-gradient(top, #ffffff 0%, #dddddd 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #dddddd 100%);
+	color: #000;
+	display: inline-block;
+	height: 50px;
+	line-height: 20px;
+	border: 1px solid #999;
+	overflow: hidden;
+	text-decoration: none;
+	vertical-align: top;
+	width: 30%;
+	border-radius:10px;
+	padding: 5px;
+}
+#btn-box2 a:hover{
+	color: #00a;
+	font-weight: bold;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #eeeeee 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #eeeeee 100%);
+}
+
+
+/*画像ポップアップ_sta*/
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(../images/css_overlay.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/css_overlay.png", sizingMethod="scale");
+	}
+/*画像ポップアップ_end*/
+
+
+
+@media screen and (min-width: 920px){
+	body{
+	width: 920px;
+	}
+}
+/*メニューをページ下部に固定-------------------------*/
+#box-menu1{
+   position: fixed;
+   width: 100%;
+   bottom: 0px;
+   font-size: 0;
+   opacity: 0.9;
+   z-index: 99;
+}
+
+/*メニューを横並びにする*/
+#box-menu1 ul{
+   display: flex;
+   list-style: none;
+   padding:0;
+   margin:0;
+   width:100%;
+}
+
+#box-menu1 li{
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   padding:0;
+   margin:0;
+   font-size: 14px;
+   border-right: 1px solid #fff;
+}
+
+/*左側メニューを緑色に*/
+#box-menu1 li:first-child{
+   background: #38b435;
+}
+
+/*左側メニューをオレンジ色に*/
+#box-menu1 li:last-child{
+   background: #f3a324;
+}
+
+/*ボタンを調整*/
+#box-menu1 li a{
+   color: #fff;
+   text-align: center;
+   display:block;
+   width: 100%;
+   padding:20px;
+}
